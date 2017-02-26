@@ -1,8 +1,5 @@
 OPENCV = `pkg-config opencv --cflags --libs`
 
-#run: main
-#	./main
-
 main: *.cpp
 	g++ *.cpp -o main  ${OPENCV}
 
